@@ -1,5 +1,9 @@
 FROM tensorflow/tensorflow:latest-py3
 
+# Add Pandoc
+RUN apt-get update && apt-get install -y \
+  pandoc
+
 # Install ML-Packages
 RUN pip --no-cache-dir install \
   xgboost \
