@@ -1,5 +1,10 @@
 FROM tensorflow/tensorflow:latest-py3
 
+# Add Pandoc and Tex
+RUN apt-get update && apt-get install -y \
+  pandoc \
+  texlive-xetex
+
 # Install ML-Packages
 RUN pip --no-cache-dir install \
   xgboost \
