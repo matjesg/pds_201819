@@ -6,6 +6,7 @@ RUN pip --no-cache-dir install \
   catboost \
   lightgbm \
   gensim \
+  seaborn \
   jupyter_contrib_nbextensions \
   jupyter_nbextensions_configurator
 
