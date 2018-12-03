@@ -7,6 +7,7 @@ RUN pip --no-cache-dir install \
   lightgbm \
   gensim \
   seaborn \
+  featuretools \
   jupyter_contrib_nbextensions \
   jupyter_nbextensions_configurator
 
