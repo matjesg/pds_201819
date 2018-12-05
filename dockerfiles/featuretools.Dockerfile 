@@ -1,4 +1,0 @@
-FROM jupyter/datascience-notebook
-
-# Install Featuretools
-RUN python -m pip install featuretools
